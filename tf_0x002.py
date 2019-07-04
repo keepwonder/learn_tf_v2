@@ -83,3 +83,13 @@ for epoch in range(EPOCHS):
                           test_loss.result(),
                           test_accuracy.result()*100))
 
+
+"""
+result:
+
+Epoch 1, Loss: 0.1363905817270279, Accuracy: 95.86166381835938, Test Loss: 0.06474881619215012, Test Accuracy: 97.87999725341797
+Epoch 2, Loss: 0.08842511475086212, Accuracy: 97.30999755859375, Test Loss: 0.060913700610399246, Test Accuracy: 97.9749984741211
+Epoch 3, Loss: 0.06511753797531128, Accuracy: 98.02055358886719, Test Loss: 0.06148631125688553, Test Accuracy: 98.00999450683594
+Epoch 4, Loss: 0.05195368081331253, Accuracy: 98.41333770751953, Test Loss: 0.061374157667160034, Test Accuracy: 98.10250091552734
+Epoch 5, Loss: 0.043499212712049484, Accuracy: 98.66633605957031, Test Loss: 0.06273096054792404, Test Accuracy: 98.15399932861328
+"""
